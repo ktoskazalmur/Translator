@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Micro_translator{
-    static String stop=":exit";
+public class MicroTranslator{
+    String stop=":exit";
     
-    public static Map<String, List<String>> filling_dictionary(){
+    public Map<String, List<String>> startingWords(){
         
         Map<String, List<String>> dictionary = new HashMap<>();
         
