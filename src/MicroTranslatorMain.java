@@ -27,7 +27,7 @@ public class MicroTranslatorMain {
                case ":add":
                    printAndWrite.output("Английское слово: ");
                     add_eng_word=printAndWrite.input();
-                    while(:end)==0){
+                    while(!(add_rus_word==":end")){
                     printAndWrite.output("Вариант перевода: ");
                     add_rus_word=printAndWrite.input();
                     printAndWrite.output(add_rus_word);

@@ -4,7 +4,7 @@ import java.util.Map;
 public class Dictionary {
     
     Dictionary (){
-    Map<String, List<String>> userWordsCollection=new HashMap<>();
+    Map<String, List<String>> userWordsCollection;
     }
     Map<String, List<String>> userWordsCollection;
     
